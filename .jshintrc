@@ -1,0 +1,13 @@
+{
+  "esversion": 6,
+  "browser": true,
+  "node": true,
+  "undef": true,
+  "unused": true,
+  "eqeqeq": true,
+  "curly": true,
+  "globals": {
+    "React": true,
+    "ReactDOM": true
+  }
+}
