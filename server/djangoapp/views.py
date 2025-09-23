@@ -16,6 +16,7 @@ from django.views.decorators.csrf import csrf_exempt
 from .populate import initiate
 from .restapis import get_request, analyze_review_sentiments, post_review
 
+
 # Get an instance of a logger
 logger = logging.getLogger(__name__)
 
@@ -82,7 +83,7 @@ def registration(request):
         return JsonResponse(data)
 # # Update the `get_dealerships` view to render the index page with
 # a list of dealerships
-def get_dealerships(request):
+
 # ...
 #Update the `get_dealerships` render list of dealerships all by default, particular state if state is passed
 def get_dealerships(request, state="All"):
